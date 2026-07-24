@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae5a900b-f1af-482a-a546-28bbe3a8e8c7">
+  <producedTypes>
+    <objectType typeId="95578993-2ed6-4f3d-b657-3c44db4b341e" valueTypeId="d8e31d58-fa9c-4e6f-9967-4ff2ed014288"/>
+    <refType typeId="b9ee3aac-7c0a-4e3d-a08e-a9b14e6278f1" valueTypeId="e4dd994a-4e1c-4d73-aa01-c006116e9fef"/>
+    <selectionType typeId="c8dc2074-7938-4745-892c-9540f818d20e" valueTypeId="e7fc2bd0-51c4-455e-804b-9b0d3d31e5a7"/>
+    <listType typeId="747e4066-5707-4d04-b47e-1777e2736f38" valueTypeId="4c9a1dec-273a-442b-94aa-90dc82b549b4"/>
+    <managerType typeId="8a76fc7f-5c74-49b6-ac01-c7ad44123e8a" valueTypeId="9ab44aac-a81b-457b-811a-a5dcef7f7dee"/>
+  </producedTypes>
+  <name>ВКМ_ДополнтительныеРеквизиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнтительные реквизиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ДополнтительныеРеквизиты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ДополнтительныеРеквизиты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="51a8ae0f-b926-4d7f-936f-2b1e9b94af8b">
+      <name>ДатаНачалаДействияДоговора</name>
+      <description>Дата начала действия договора</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="6c52fbae-4d60-457e-97b6-df307e5c3b4d">
+      <name>ДатаОкончанияДействияДоговора</name>
+      <description>Дата окончания действия договора</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="ca886947-0bce-4dc1-a3d4-b783291e05f6">
+      <name>ЕжемесячнаяАбонентскаяПлата</name>
+      <description>Ежемесячная абонентская плата</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="0c8e72f8-ef09-4ff8-862d-479b97677e09">
+      <name>СтоимостьЧасаРаботыСпециалиста</name>
+      <description>Стоимость часа работы специалиста</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9cbbcb83-7eb2-4785-969e-64630b7a4a88">
+    <name>ТипРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип реквизита</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_ТипыДополнительныхРеквизитов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

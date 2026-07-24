@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fab686d6-1bad-4530-b958-3f1e2a5a77e7">
+  <producedTypes>
+    <refType typeId="6aee2568-79d8-430e-8b16-6b667f1fb288" valueTypeId="6ecb1665-0fa2-4caf-aa7b-ef623c59ea6a"/>
+    <listType typeId="5f19fc74-0c4b-46eb-92a8-b095a9aea847" valueTypeId="3442cd6e-5075-4898-9113-367162dcba2f"/>
+    <managerType typeId="3a064434-0e86-454b-9bda-6a96c1ed3905" valueTypeId="e072c447-db3d-4f7c-862a-4b9ddb63c6fc"/>
+  </producedTypes>
+  <name>ВКМ_ТипыДополнительныхРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы дополнительных реквизитов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="46f02744-e9cc-4d28-be22-c5706da6e9fa">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8200313f-c28b-4c7f-a54b-1bbfe59f0993">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
