@@ -22,4 +22,6 @@
   <content>Constant.ВКМ_ИдентификаторГруппыТГ</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</content>
   <content>ScheduledJob.ВКМ_ОтправитьСообщениеВТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
 </mdclass:Subsystem>
