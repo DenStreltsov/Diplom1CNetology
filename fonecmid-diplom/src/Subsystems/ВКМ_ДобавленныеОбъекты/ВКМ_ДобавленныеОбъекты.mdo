@@ -8,6 +8,18 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.Parameters</picture>
+    <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ВКМ_ДополнтительныеРеквизиты</content>
+  <content>Enum.ВКМ_ТипыДополнительныхРеквизитов</content>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ТокенТГБот</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТГ</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</content>
+  <content>ScheduledJob.ВКМ_ОтправитьСообщениеВТелеграм</content>
 </mdclass:Subsystem>
