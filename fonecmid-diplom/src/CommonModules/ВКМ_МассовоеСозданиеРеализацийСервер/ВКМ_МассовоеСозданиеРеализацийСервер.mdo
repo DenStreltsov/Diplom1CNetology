@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c69c824-b5d3-4a86-bafd-94a7bfca265a">
-  <name>ВКМ_МассовоеСозданиеРеализаций</name>
+  <name>ВКМ_МассовоеСозданиеРеализацийСервер</name>
   <synonym>
     <key>ru</key>
     <value>Массовое создание реализаций</value>
