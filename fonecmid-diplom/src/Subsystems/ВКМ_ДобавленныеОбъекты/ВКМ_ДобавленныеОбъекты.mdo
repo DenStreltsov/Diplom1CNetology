@@ -42,4 +42,6 @@
   <content>Enum.ВКМ_КатегорияСотрудников</content>
   <content>CommonModule.ВКМ_ДополнительныеРеквизиты</content>
   <content>Constant.ВКМ_НДФЛ</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>

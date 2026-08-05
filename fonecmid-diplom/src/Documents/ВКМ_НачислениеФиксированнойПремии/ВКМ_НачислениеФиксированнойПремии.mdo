@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b349cd7-0758-442f-acdb-2e970ac12a7e">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b349cd7-0758-442f-acdb-2e970ac12a7e">
   <producedTypes>
     <objectType typeId="d7695aec-d51d-42b3-8ecd-3d05835b246d" valueTypeId="4ca2103b-fc96-45c0-ae27-7360e258e07d"/>
     <refType typeId="bb2bf464-5f89-497e-8e6b-3fc88aca699f" valueTypeId="62f3ef4b-5659-482e-a51f-49017de17338"/>
@@ -27,4 +27,48 @@
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="a658341e-aba7-4a74-85a1-ae87853c6144">
+    <producedTypes>
+      <objectType typeId="9db27f9a-cb91-466f-8488-d7edcc433f91" valueTypeId="91265480-796a-4b08-9e60-ff11d80edd28"/>
+      <rowType typeId="27465e73-b376-4e02-80e7-00b3b90e3b3f" valueTypeId="08bc492f-368f-4147-a551-c77d21ce9112"/>
+    </producedTypes>
+    <name>СписокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </synonym>
+    <attributes uuid="7873cdf3-9380-473f-8385-85f2369fe29a">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="58fa8dc4-c956-498f-ab09-22d86769858b">
+      <name>СуммаПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56864a2c-a7bf-4ca1-82ba-b592e45be276">
+  <producedTypes>
+    <objectType typeId="1f12709f-c2b0-4918-b1d3-6c21d9445c98" valueTypeId="17fdd992-acec-4e5a-a4d5-0f43284cbeb4"/>
+    <refType typeId="83d0da01-8cee-4fa7-bb2f-b10820ea8fa5" valueTypeId="a944d2b2-c3d0-4002-92fc-a385997a126a"/>
+    <selectionType typeId="54069895-b792-4a32-8478-e4aa683b7b1f" valueTypeId="50c98e69-e61b-4bfa-9fae-1880470c5e1a"/>
+    <listType typeId="b1e1f9cd-7ef9-4581-8a91-dd2f3c81cc9d" valueTypeId="352d8cb3-5bd3-4fd3-9872-dac63a3468c8"/>
+    <managerType typeId="0cdff893-d03f-4188-a2c8-5dff4002e2d0" valueTypeId="7b583d07-eb3d-46bb-877e-59e3e478bdd8"/>
+  </producedTypes>
+  <name>ВКМ_ВыплатаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплата зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_ВыплатаЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ВыплатаЗарплаты.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="3b036265-50ac-4a39-bffa-d120f0d88b45">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ddd0d19d-88b3-4a14-a578-572840e44ea3">
+    <producedTypes>
+      <objectType typeId="901764b3-d5eb-4f46-a5dc-cb6d391c2804" valueTypeId="aa8a0707-e184-4b0c-84af-f53ea75c7966"/>
+      <rowType typeId="69c1a637-de46-410d-bc7f-70df0db20e6b" valueTypeId="b9f38854-5ad9-497e-8c5e-48f1b303206a"/>
+    </producedTypes>
+    <name>Выплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплаты</value>
+    </synonym>
+    <attributes uuid="46cbe46f-8fba-4341-a6c9-adfe7a9aa18d">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="653e642c-6b82-4172-a534-9e39002e42d9">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
