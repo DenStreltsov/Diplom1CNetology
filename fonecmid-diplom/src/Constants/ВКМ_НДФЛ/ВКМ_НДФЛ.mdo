@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a1b9e27-9668-45a6-9065-04af05eb35d3">
+  <producedTypes>
+    <managerType typeId="c5badef1-82c1-4561-8426-822d5f433ea1" valueTypeId="189c2e44-ab64-4b25-a799-10b1015ebfdd"/>
+    <valueManagerType typeId="8afe26b0-3532-41da-ba7e-5bb0558af134" valueTypeId="10b0cba0-5e8c-46d3-a14e-799a2e974807"/>
+    <valueKeyType typeId="2f3dcafd-ffd9-4e65-9644-f07ae42f7753" valueTypeId="73dbd52c-352e-4588-93ac-e3d6d0affe93"/>
+  </producedTypes>
+  <name>ВКМ_НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДФЛ</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

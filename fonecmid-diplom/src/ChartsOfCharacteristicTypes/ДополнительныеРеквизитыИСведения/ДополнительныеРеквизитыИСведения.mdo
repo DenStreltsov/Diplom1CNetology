@@ -124,6 +124,7 @@
     <types>Date</types>
     <types>Number</types>
     <types>CatalogRef.Пользователи</types>
+    <types>EnumRef.ВКМ_КатегорияСотрудников</types>
     <numberQualifiers>
       <precision>17</precision>
       <scale>5</scale>
