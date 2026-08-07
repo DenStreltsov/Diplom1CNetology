@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09032ca0-635b-4dd8-9d1e-643e00b9b310">
+  <producedTypes>
+    <objectType typeId="de0085fa-71cb-477f-ad7d-7a61ab47c078" valueTypeId="bc839917-4d85-4174-8484-cb3c8dfb4553"/>
+    <managerType typeId="8f98c91f-fff2-4133-8558-df330007245f" valueTypeId="33e5a67e-fedf-4c5e-b180-719dc111e09f"/>
+  </producedTypes>
+  <name>ВКМ_РасходЗапланированныхОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход запланированных отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВКМ_РасходЗапланированныхОтпусков.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВКМ_РасходЗапланированныхОтпусков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="3e504763-fdec-4a1d-a988-9039f36fd385">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8361044e-233c-48a5-a01b-b2960ac3c10b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

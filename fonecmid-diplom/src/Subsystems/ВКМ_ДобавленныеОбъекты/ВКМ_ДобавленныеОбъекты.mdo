@@ -44,4 +44,12 @@
   <content>Constant.ВКМ_НДФЛ</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовЗарплаты</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаГрафикОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_ОтпускаСотрудников</content>
 </mdclass:Subsystem>
