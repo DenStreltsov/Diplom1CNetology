@@ -52,4 +52,7 @@
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>AccumulationRegister.ВКМ_ОтпускаСотрудников</content>
+  <content>Role.ВКМ_ИспользованиеОтчетаВыработкаСпециалистов</content>
+  <content>Role.ВКМ_ИспользованиеОтчетаАнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ИспользованиеОтчетовПоЗарплатеИОтпускам</content>
 </mdclass:Subsystem>
