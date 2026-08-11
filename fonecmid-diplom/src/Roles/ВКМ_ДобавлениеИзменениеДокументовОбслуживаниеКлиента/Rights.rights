@@ -296,6 +296,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ВКМ_КалендарьСпециалистов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОценкаПроизводительности.Attribute.Комментарий</name>
 		<right>
 			<name>View</name>
@@ -479,10 +490,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
@@ -496,22 +503,6 @@
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
 		<right>

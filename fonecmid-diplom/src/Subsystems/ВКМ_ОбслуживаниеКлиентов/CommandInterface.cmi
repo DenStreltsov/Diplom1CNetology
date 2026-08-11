@@ -8,7 +8,6 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ВКМ_ДополнтительныеРеквизиты.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -19,7 +18,6 @@
     <orderFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ВКМ_ДополнтительныеРеквизиты.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -10,7 +10,7 @@
   <name>ВКМ_ДополнтительныеРеквизиты</name>
   <synonym>
     <key>ru</key>
-    <value>Дополнтительные реквизиты</value>
+    <value>Дополнительные реквизиты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВКМ_ДополнтительныеРеквизиты.StandardAttribute.Code</inputByString>

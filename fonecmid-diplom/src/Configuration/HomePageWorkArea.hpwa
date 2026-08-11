@@ -7,6 +7,10 @@
       <height>10</height>
       <visibility>
         <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиента</role>
+        </for>
       </visibility>
     </items>
   </columns>
