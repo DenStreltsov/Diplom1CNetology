@@ -19,6 +19,10 @@
   <defaultRecordForm>InformationRegister.ВКМ_УсловияОплатыСотрудников.Form.ФормаЗаписи</defaultRecordForm>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Условие</value>
+  </recordPresentation>
   <resources uuid="96c7415f-b95b-499a-9153-6f569e4b4c08">
     <name>Оклад</name>
     <synonym>

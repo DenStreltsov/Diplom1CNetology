@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаНомерДата</name>
-    <id>35</id>
+    <id>41</id>
     <items xsi:type="form:FormField">
       <name>Номер</name>
       <id>1</id>
@@ -47,6 +47,10 @@
     <items xsi:type="form:FormField">
       <name>Дата</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>от</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -96,7 +100,7 @@
     </title>
     <extendedTooltip>
       <name>ГруппаНомерДатаРасширеннаяПодсказка</name>
-      <id>36</id>
+      <id>42</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -114,86 +118,8 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>Год</name>
-    <id>7</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Год</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ГодРасширеннаяПодсказка</name>
-      <id>9</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ГодКонтекстноеМеню</name>
-      <id>8</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <width>10</width>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <openButton>false</openButton>
-      <format>
-        <key>ru</key>
-        <value>ЧГ=0</value>
-      </format>
-      <editFormat>
-        <key>ru</key>
-        <value>ЧГ=0</value>
-      </editFormat>
-      <listChoiceMode>true</listChoiceMode>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>АнализГрафика</name>
-    <id>37</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>АнализГрафикаРасширеннаяПодсказка</name>
-      <id>38</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.АнализГрафика</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
-  </items>
   <items xsi:type="form:Table">
-    <name>ОтпускаСотрудников</name>
+    <name>Начисления</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -201,11 +127,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ОтпускаСотрудников</segments>
+      <segments>Объект.Начисления</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ОтпускаСотрудниковНомерСтроки</name>
+      <name>НачисленияНомерСтроки</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -213,10 +139,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ОтпускаСотрудников.LineNumber</segments>
+        <segments>Объект.Начисления.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковНомерСтрокиРасширеннаяПодсказка</name>
+        <name>НачисленияНомерСтрокиРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -226,7 +152,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковНомерСтрокиКонтекстноеМеню</name>
+        <name>НачисленияНомерСтрокиКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -241,7 +167,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ОтпускаСотрудниковСотрудник</name>
+      <name>НачисленияСотрудник</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -249,10 +175,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ОтпускаСотрудников.Сотрудник</segments>
+        <segments>Объект.Начисления.Сотрудник</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковСотрудникРасширеннаяПодсказка</name>
+        <name>НачисленияСотрудникРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -262,7 +188,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковСотрудникКонтекстноеМеню</name>
+        <name>НачисленияСотрудникКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -282,7 +208,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ОтпускаСотрудниковДатаНачала</name>
+      <name>НачисленияВидРасчета</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -290,14 +216,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ОтпускаСотрудников.ДатаНачала</segments>
+        <segments>Объект.Начисления.ВидРасчета</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ОтпускаСотрудниковДатаНачалаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковДатаНачалаРасширеннаяПодсказка</name>
+        <name>НачисленияВидРасчетаРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -307,7 +229,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковДатаНачалаКонтекстноеМеню</name>
+        <name>НачисленияВидРасчетаКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -327,7 +249,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ОтпускаСотрудниковДатаОкончания</name>
+      <name>НачисленияДатаНачала</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -335,14 +257,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ОтпускаСотрудников.ДатаОкончания</segments>
+        <segments>Объект.Начисления.ДатаНачала</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ОтпускаСотрудниковДатаОкончанияПриИзменении</name>
-      </handlers>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка</name>
+        <name>НачисленияДатаНачалаРасширеннаяПодсказка</name>
         <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -352,7 +270,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковДатаОкончанияКонтекстноеМеню</name>
+        <name>НачисленияДатаНачалаКонтекстноеМеню</name>
         <id>33</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -371,21 +289,99 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>НачисленияДатаОкончания</name>
+      <id>35</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Начисления.ДатаОкончания</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НачисленияДатаОкончанияРасширеннаяПодсказка</name>
+        <id>37</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НачисленияДатаОкончанияКонтекстноеМеню</name>
+        <id>36</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>НачисленияГрафикРаботы</name>
+      <id>38</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Начисления.ГрафикРаботы</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НачисленияГрафикРаботыРасширеннаяПодсказка</name>
+        <id>40</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НачисленияГрафикРаботыКонтекстноеМеню</name>
+        <id>39</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <autoCommandBar>
-      <name>ОтпускаСотрудниковКоманднаяПанель</name>
+      <name>НачисленияКоманднаяПанель</name>
       <id>12</id>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
-    <handlers>
-      <event>AfterDeleteRow</event>
-      <name>ОтпускаСотрудниковПослеУдаления</name>
-    </handlers>
     <searchStringAddition>
-      <name>ОтпускаСотрудниковСтрокаПоиска</name>
+      <name>НачисленияСтрокаПоиска</name>
       <id>14</id>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>НачисленияСтрокаПоискаРасширеннаяПодсказка</name>
         <id>16</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -395,20 +391,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковСтрокаПоискаКонтекстноеМеню</name>
+        <name>НачисленияСтрокаПоискаКонтекстноеМеню</name>
         <id>15</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ОтпускаСотрудников</source>
+      <source>Начисления</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>ОтпускаСотрудниковСостояниеПросмотра</name>
+      <name>НачисленияСостояниеПросмотра</name>
       <id>17</id>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>НачисленияСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -418,21 +414,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковСостояниеПросмотраКонтекстноеМеню</name>
+        <name>НачисленияСостояниеПросмотраКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ОтпускаСотрудников</source>
+      <source>Начисления</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>ОтпускаСотрудниковУправлениеПоиском</name>
+      <name>НачисленияУправлениеПоиском</name>
       <id>20</id>
       <extendedTooltip>
-        <name>ОтпускаСотрудниковУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>НачисленияУправлениеПоискомРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -442,18 +438,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтпускаСотрудниковУправлениеПоискомКонтекстноеМеню</name>
+        <name>НачисленияУправлениеПоискомКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ОтпускаСотрудников</source>
+      <source>Начисления</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ОтпускаСотрудниковРасширеннаяПодсказка</name>
+      <name>НачисленияРасширеннаяПодсказка</name>
       <id>13</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -463,7 +459,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ОтпускаСотрудниковКонтекстноеМеню</name>
+      <name>НачисленияКонтекстноеМеню</name>
       <id>11</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -492,7 +488,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
-    <id>39</id>
+    <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -503,7 +499,7 @@
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
-      <id>41</id>
+      <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -513,11 +509,11 @@
     </extendedTooltip>
     <contextMenu>
       <name>КомментарийКонтекстноеМеню</name>
-      <id>40</id>
+      <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>Enter</editMode>
+    <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -525,6 +521,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -536,10 +533,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -553,7 +546,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ВКМ_ГрафикОтпусков</types>
+      <types>DocumentObject.ВКМ_НачислениеЗарплаты</types>
     </valueType>
     <view>
       <common>true</common>
@@ -567,23 +560,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <formCommands>
-    <name>АнализГрафика</name>
-    <title>
-      <key>ru</key>
-      <value>Анализ графика</value>
-    </title>
-    <id>1</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>АнализГрафика</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -204,6 +204,13 @@
     <savedData>true</savedData>
     <extInfo xsi:type="form:GanttChartExtInfo"/>
   </attributes>
+  <parameters>
+    <name>АдресВХранилище</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -40,7 +40,7 @@
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Enum.ВКМ_КатегорияСотрудников</content>
-  <content>CommonModule.ВКМ_ДополнительныеРеквизиты</content>
+  <content>CommonModule.ВКМ_ДополнительныеРеквизитыВызовСервера</content>
   <content>Constant.ВКМ_НДФЛ</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>

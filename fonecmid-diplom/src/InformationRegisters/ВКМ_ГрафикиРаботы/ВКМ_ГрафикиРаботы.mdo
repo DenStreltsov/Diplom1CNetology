@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Данные графика</value>
+  </recordPresentation>
   <resources uuid="f15a5231-8732-46c7-bfde-b2fd93887868">
     <name>Значение</name>
     <synonym>
